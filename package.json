@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --optimize-minimize",
-    "start": "webpack-dev-server --port 3000"
+    "start": "webpack-dev-server --port 3000",
+    "styles": "sass --watch --scss ./sass/app.scss:./css/app.css"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +21,8 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
+    "concurrently": "^3.1.0",
     "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^1.0.1",
     "node-sass": "^4.3.0",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",

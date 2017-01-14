@@ -1,0 +1,1 @@
+!function(e){function t(n){if(r[n])return r[n].exports;var a=r[n]={exports:{},id:n,loaded:!1};return e[n].call(a.exports,a,a.exports,t),a.loaded=!0,a.exports}var r={};return t.m=e,t.c=r,t.p="",t(0)}([function(e,t){"use strict";var r=function(){return React.createElement("p",null,"React Loaded")};render(React.createElement(r,null),document.getElementById("main"))}]);
